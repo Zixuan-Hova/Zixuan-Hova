@@ -1,14 +1,13 @@
-baseURL: https://aafu.pages.dev/
+baseURL: "https://github.com/Zixuan-Hova/aboutMe/"
 languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  title: MyPage
+  author: Zixuan Li
+  description: 
   copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    Math Major Survivor  -  Now Fluent in the Language of Numbers
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,34 +23,20 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
-    photo: profile.jpg
+    name: "Zixuan (Hova) Li."
+    tagline: 
+    location: "Halifax, NS | Toronto, ON"
+    photo: IMG_4987.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/zixuan-li-609898229/"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/Zixuan-Hova/CampusCodeCraftPy"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
+      
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,107 +49,99 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description:
+                 👋 Hello World! I'm Zixuan (you can call me Hova), a math explorer by training, a data analyst by trade, and an esports enthusiast by choice. I've crunched numbers, gamed late into the night, and turned data into decisions — all before my morning coffee.
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Market Research and Data Analyst Intern
+        dates: 2021/04 – 2021/08
+        company: Deloitte Foundation
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+         
+         📊 Market Maverick: Dug deep into market trends to boost a charity campaign, impacting lives of over 1,000 beneficiaries—because who says you can’t mix analytics with altruism?
+        
+         📉 Survey Strategist: Wrangled data from 5,000+ respondents, because making decisions without data is just guessing.
+        
+         📈 Content Commander: Spearheaded social media content, boosting engagement by 30%. Turns out, numbers do have real power!
+
+
+
+      - position: Front-End Developer Intern
+        dates: 2021/01 – 2021/04
+        company: ZLSOFT Software Company
+        details: |1-
+         
+         🚀 Tech Trendsetter: Helped pick the coolest tech for web projects, ensuring we were always ahead of the curve.
+         
+         💻 CSS Conqueror & JavaScript Juggler: Crafted slick web pages that didn’t just work, they wowed.
+         
+         🤝 Collaboration Catalyst: Bridged the gap between front-end flair and back-end brawn, speeding up project delivery by a whopping 20%.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+      - degree: Maste of Business Analytics
+        college: Saint Mary's University, Sobey School of Business
+        thesis_url: "https://www.smu.ca/sobey/mban/"
+        dates: 2024/09 - 2025/12
+        
+      - degree: B.Sc.(Hons) in Mathematics & Its Applications Specialist (Probability/Statistics)
+        college: University of Toronto St.George
+        dates: 2021/09 - 2024/06
+        relevant courses: Time Series Analysis, Multivariate Data Analysis, Observational Studies, Real Analysis, ODE/PDE
+        
+      - degree: Undergraduate, Computer Science
+        college: York University, Lassonde School of Engineering
+        dates: 2020/01 - 2020/12
+        relevant courses: Theory of Computation, Net-centric Computing, Programming for Mobile Computing
+  
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+      - title: Statistical Analysis of Judicial Decisions, Legal Rules, and Judicial Decision Making
+        url: "https://drive.google.com/file/d/1trEixdjbzAI1VU8DbeI4GolzqpG_G5Lr/view?usp=sharing"
+        description: |1-
+         
+         🕵️‍♂️ Digging Deep: Armed with Python, R, and SQL, I dive into judicial data, uncovering inefficiencies and disparities that hide in plain sight. Think of me as the detective who uses stats instead of a magnifying glass. |
+         
+         🏛️ Fighting for Fairness: Using data-driven insights, I highlight case outcome disparities and push for much-needed judicial reforms. It's like being a data-driven superhero, but my cape is made of graphs!
+         
+         🔍 Case Study Spotlight: My deep-dive into bail decisions reveals systemic biases, sparking conversations and paving the way for reform. It’s not just about finding facts; it’s about making a difference.
+      
+      - title: Regression Analysis on Graduate Admission
+        url: "https://drive.google.com/file/d/14f6Rvhky9cCgkbjQi8ochdrlCOfMHhKs/view?usp=sharing"
+        description: |1-
+         
+         🎓 Predictive Prodigy: Crafted wizard-level regression models to forecast grad school admissions. Who gets in? My algorithms have a guess before they even apply.
+         
+         🔍 Validation Virtuoso: Implemented cross-validation magic to ensure my crystal ball (read: models) wasn’t just spitting out academic gibberish but real, actionable insights.
+         
+         📊 R Aficionado: Went Sherlock Holmes with R, dissecting data layers to spotlight what really sways admission decisions. Spoiler: It’s more than just grades and test scores.
+     
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
+      - skill: 'Programming Languages (Expert): "Python, R, SQL"'
+        skillrating: 95
+      - skill: 'Data Analysis (Advanced): "Predictive Modelling, Data Visualization"'
         skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - skill: 'Web Development (Proficient): "JavaScript, CSS3"'
+        skillrating: 85
+
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: ⛷️ Ski 
+      - hobby: 🎾 Tennis
+      - hobby: 🎮 Gaming
+      - hobby: Counter-Strike Global Offensive (Premier 15000)
+      - hobby: Apex Legends (Diamond)
+      - hobby: Valorant (Diamond)
+      - hobby: League of Legends (Gold)
+
